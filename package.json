@@ -1,0 +1,12 @@
+{
+  "name": "my-mdx-deck",
+  "version": "0.1.0",
+  "repository": "git@github.com:pkuosa-gabriel/info.git",
+  "author": "Gabriel Wu <qqbbnease1004@126.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "now",
+    "deploy": "now && now alias",
+    "alias": "now alias"
+  }
+}
