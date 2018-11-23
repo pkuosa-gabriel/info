@@ -1,0 +1,9 @@
+{
+  "name": "my-mdx-deck",
+  "alias": "https://pkuosa-gabriel.now.sh",
+  "version": 2,
+  "builds": [
+    { "src": "index.mdx", "use": "@now/mdx-deck" },
+    { "src": "images/*.*", "use": "@now/static" }
+  ]
+}
